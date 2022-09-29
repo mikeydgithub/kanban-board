@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const TasksContainer = ({ socket }) => {
     return (
+        // pending container, ongoing container, completed container
         <div className='container'>
             <div className='pending__wrapper'>
                 <h3>Pending Tasks</h3>
@@ -17,7 +18,7 @@ const TasksContainer = ({ socket }) => {
                     </div>
                 </div>
             </div>
-
+    
             <div className='ongoing__wrapper'>
                 <h3>Ongoing Tasks</h3>
                 <div className='ongoing__container'>
